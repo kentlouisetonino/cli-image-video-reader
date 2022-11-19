@@ -21,5 +21,5 @@ python3 readVideo.py
 
 <br />
 
-## 
+## Recording
 [image-video-reader.webm](https://user-images.githubusercontent.com/69438999/202873086-4b0cdbf3-b161-4465-986e-ab9600d021c3.webm)
