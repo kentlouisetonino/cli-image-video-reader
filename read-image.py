@@ -1,6 +1,10 @@
 import cv2 as cv
 
-image = cv.imread('photos/drone.jpg') # Takes the path of an image and returns it as a matrix of pixels.
+# Takes the path of an image and returns it as a matrix of pixels.
+image = cv.imread('photos/drone.jpg')
 
-cv.imshow('Drone', image) # Display the image as a new window.
+# Display the image as a new window.
+cv.imshow('Drone', image)
+
+# Wait for keyboard key to exit the window.
 cv.waitKey(0)
