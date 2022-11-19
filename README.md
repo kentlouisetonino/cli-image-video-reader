@@ -4,4 +4,4 @@
 <br />
 
 ## Technology Stack
-- [Python3](https://docs.python.org/3.10/) • [OpenCV Contrib Python](https://pypi.org/project/opencv-contrib-python/)
+> [Python3](https://docs.python.org/3.10/) • [OpenCV Contrib Python](https://pypi.org/project/opencv-contrib-python/)
