@@ -1,5 +1,5 @@
 ## Description
-> A Python application that will allow you to read and resize images and videos.
+> An application that will allow you to read and resize images and videos.
 
 <br />
 
