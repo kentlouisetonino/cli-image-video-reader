@@ -1,5 +1,5 @@
 ## Description
-> An application that will allow you to read and resize images and videos.
+> A computer program that will allow you to read and resize images and videos.
 
 <br />
 
