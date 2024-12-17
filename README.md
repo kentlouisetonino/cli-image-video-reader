@@ -1,25 +1,38 @@
 ## Description
-> A computer program that will allow you to read and resize images and videos.
+
+> A sample Python program that read and resize an image and video.
 
 <br />
-
-## Technology Stack
-> [Python3](https://docs.python.org/3.10/) • [OpenCV Contrib Python](https://pypi.org/project/opencv-contrib-python/)
-
 <br />
 
 ## Setup
+
+> - Setup a virtual environment.
+
+```sh
+python3 -m venv venv
+```
+
+> - Activate the virtual environment.
+
+```sh
+source venv/bin/activate
+```
+
 > Install the packages.
+
 ```bash
-pip install opencv-contrib-python
+pip3 install -r requirements.txt
 ```
 > Run the programs.
+
 ```bash
-python3 readImage.py
-python3 readVideo.py
+# Run the re_scale.py program.
+make re-scale
+
+# Run the read_image.py program.
+make read-image
+
+# Run the read_video.py program.
+make read-video
 ```
-
-<br />
-
-## Recording
-[image-video-reader.webm](https://user-images.githubusercontent.com/69438999/202873086-4b0cdbf3-b161-4465-986e-ab9600d021c3.webm)

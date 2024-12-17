@@ -1,13 +1,15 @@
 import cv2 as cv
-
-import reScale
+import os
+import re_scale
 
 # Takes the path of an image and returns it as a matrix of pixels.
-image = cv.imread('photos/drone.jpg')
+file_path = os.path.join(os.path.dirname(__file__), 'files/image.jpg')
+image = cv.imread(file_path)
 
+print(image.shape)
 
 # Resized the image to 25% smaller.
-resized_frame = reScale.frame(image)
+resized_frame = re_scale.frame(image)
 
 # Display the image as a new window.
 cv.imshow('Drone', resized_frame)
