@@ -1,6 +1,6 @@
 ## Description
 
-> A sample Python program that read and resize an image and video.
+> - A sample Python program that read and resize an image and video.
 
 <br />
 <br />
